@@ -1,0 +1,6 @@
+v1.0.1 (01-06-2019)
+- update: Raphael js.
+- fixed: Elements media image missing.
+
+v1.0.0 (21-05-2019)
+- Initial release.

@@ -1,0 +1,87 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+@@include('styles.html')
+
+<body>
+
+<div class="main-wrapper">
+
+    @@include('header.html')
+    @@include('side-header.html')
+    
+    <!-- Content Body Start -->
+    <div class="content-body">
+            
+        <!-- Page Headings Start -->
+        <div class="row justify-content-between align-items-center mb-10">
+
+            <!-- Page Heading Start -->
+            <div class="col-12 col-lg-auto mb-20">
+                <div class="page-heading">
+                    <h3 class="title">Map <span>/ Google Map</span></h3>
+                </div>
+            </div><!-- Page Heading End -->
+
+        </div><!-- Page Headings End -->
+            
+        <div class="row mbn-30">
+                            
+            <!-- Simple Start -->
+            <div class="col-lg-6 col-12 mb-30">
+                <div class="box">
+                    <div class="box-head"><h4 class="title">Simple</h4></div>
+                    <div class="box-body">
+                        <div id="google-map-simple" class="google-map google-map-simple"></div>
+                    </div>
+                </div>
+            </div><!-- Simple End -->
+                            
+            <!-- Default Marker Start -->
+            <div class="col-lg-6 col-12 mb-30">
+                <div class="box">
+                    <div class="box-head"><h4 class="title">Default Marker</h4></div>
+                    <div class="box-body">
+                        <div id="google-map-marker" class="google-map google-map-marker"></div>
+                    </div>
+                </div>
+            </div><!-- Default Marker End -->
+                            
+            <!-- Custom Marker Start -->
+            <div class="col-lg-6 col-12 mb-30">
+                <div class="box">
+                    <div class="box-head"><h4 class="title">Custom Marker</h4></div>
+                    <div class="box-body">
+                        <div id="google-map-custom-marker" class="google-map google-map-custom-marker"></div>
+                    </div>
+                </div>
+            </div><!-- Custom Marker End -->
+                            
+            <!-- Custom Theme Start -->
+            <div class="col-lg-6 col-12 mb-30">
+                <div class="box">
+                    <div class="box-head"><h4 class="title">Custom Theme</h4></div>
+                    <div class="box-body">
+                        <div id="google-map-custom-theme" class="google-map google-map-custom-theme"></div>
+                    </div>
+                </div>
+            </div><!-- Custom Theme End -->
+            
+        </div>
+            
+    </div><!-- Content Body End -->
+
+    @@include('footer.html')
+
+</div>
+
+@@include('scripts.html')
+    
+<!-- Plugins & Activation JS For Only This Page -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfmCVTjRI007pC1Yk2o2d_EhgkjTsFVN8"></script>
+<script src="assets/js/plugins/google-map/googlemap.active.js"></script>
+
+
+</body>
+
+</html>

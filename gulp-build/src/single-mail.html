@@ -1,0 +1,146 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+@@include('styles.html')
+
+<body>
+
+<div class="main-wrapper">
+
+    @@include('header.html')
+    @@include('side-header.html')
+    
+    <!-- Content Body Start -->
+    <div class="content-body">
+            
+        <!-- Page Headings Start -->
+        <div class="row justify-content-between align-items-center mb-10">
+
+            <!-- Page Heading Start -->
+            <div class="col-12 col-lg-auto mb-20">
+                <div class="page-heading">
+                    <h3>Dashboard <span>/ App - Single Mail</span></h3>
+                </div>
+            </div><!-- Page Heading End -->
+
+        </div><!-- Page Headings End -->
+        
+        <!--Mail Wrapper Start-->
+        <div class="mail-wrapper">
+            
+                @@include('mail-menu.html')
+
+                <!--Mail List Container Start-->
+                <div class="mail-container">
+                
+                    @@include('mail-options.html')
+
+                    <!--Mail Start-->
+                    <div class="single-mail">
+                        <!--Top-->
+                        <div class="top">
+                            <!--Left-->
+                            <div class="left">
+                                <ul>
+                                    <li><strong>From</strong> <span>uessicauensen@mail.com</span></li>
+                                    <li><strong>To</strong> <span>admin@domain.com  (me)</span></li>
+                                    <li><strong>CC</strong> <span>N/A</span></li>
+                                </ul>
+                            </div>
+                            <!--Right-->
+                            <div class="right">
+                                <button><i class="zmdi zmdi-print"></i></button>
+                                <button><i class="zmdi zmdi-tag-more"></i></button>
+                            </div>
+                        </div>
+                        <!--Bottom-->
+                        <div class="bottom">
+                            <!--User Start-->
+                            <div class="user">
+                                <div class="image"><img src="assets/images/avatar/avatar-1.jpg" alt=""></div>
+                                <div class="info">
+                                    <h5 class="name">David Evans</h5>
+                                    <span class="date">Sep 19, 2018, 3:46 PM</span>
+                                </div>
+                            </div><!--User End-->
+                            <!--Body Start-->
+                            <div class="body">
+
+                                <div class="content">
+                                    <h5>Hello Admin</h5>
+                                    <p>We are oferring a 10% give away for all the new purcahses of our plugin. This offer is limited and valid till 24th September Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesettin</p>
+                                    <ul>
+                                        <li><a href="#">Lorem Ipsum has been the industry's standard dummy text.</a></li>
+                                        <li><a href="#">Lorem Ipsum has been the industry's standard dummy text.</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="attachment">
+                                    <h5 class="title">Attachment:</h5>
+                                    <ul class="attach-files">
+                                        <li>
+                                            <a href="#">
+                                                <img src="assets/images/icons/doc.png" alt="">
+                                                <span class="type">DOC</span>
+                                                <i class="zmdi zmdi-cloud-download"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="assets/images/icons/pdf.png" alt="">
+                                                <span class="type">PDF</span>
+                                                <i class="zmdi zmdi-cloud-download"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="assets/images/icons/zip.png" alt="">
+                                                <span class="type">ZIP</span>
+                                                <i class="zmdi zmdi-cloud-download"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="assets/images/mail/attach-1.png" alt="">
+                                                <span class="type">PNG</span>
+                                                <i class="zmdi zmdi-cloud-download"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <a href="#" class="button button-primary button-round button-outline">Download zip</a>
+
+                                </div>
+
+                                <div class="buttons">
+                                    <a href="#" class="button button-info button-round button-outline"><i class="zmdi zmdi-forward"></i>Forward</a>
+                                    <a href="#" class="button button-primary button-round button-outline"><i class="zmdi zmdi-mail-reply"></i>Reply</a>
+                                </div>
+
+                            </div><!--Body End-->
+
+                        </div>
+
+                    </div><!--Mail End-->
+
+                </div><!--Mail List Container End-->
+            
+        </div><!--Mail Wrapper Start-->
+           
+        @@include('mail-compose.html')
+            
+    </div><!-- Content Body End -->
+
+    @@include('footer.html')
+
+</div>
+
+@@include('scripts.html')
+
+<!-- Plugins & Activation JS For Only This Page -->
+<script src="assets/js/plugins/summernote/summernote-bs4.min.js"></script>
+<script src="assets/js/plugins/summernote/summernote.active.js"></script>
+
+</body>
+
+</html>
